@@ -33,7 +33,7 @@ Specify output directory, convert all images in current dir
 2webp . --output=./output
 ```
 
-Specify output format (convert to png for example) for all images in current dir
+Convert to png for all images in current dir
 ```bash
 2webp . --format=png
 ```
