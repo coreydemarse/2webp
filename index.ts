@@ -117,6 +117,13 @@ const ensureDirSync = (dirPath: string) => {
   }
 };
 
+if (typeof Bun == "undefined") {
+  console.error(
+    "Install Bun to use 2webp - https://bun.sh | install 2webp using 'bun add -g 2webp'",
+  );
+  process.exit(1);
+}
+
 // Get arguments from the command line
 const args = process.argv.slice(2);
 

@@ -5,19 +5,16 @@ A simple image converter for web developers.
 Convert images asyncronously in bulk using Bun/Sharp.
 
 
-## Dependencies
-
-2webp relies on Sharp which uses libvips.
-
-Make sure you have it installed.
-```bash
-sudo apt-get install libvips-dev
-```
-
 ## Install (global)
 
+Install 2webp globally using NPM
 ```bash
-bun install -g 2webp
+bun add -g 2webp
+```
+
+On Linux - make sure you have libvips
+```bash
+sudo apt-get install libvips-dev
 ```
 
 ## How to Use
@@ -62,4 +59,8 @@ To run:
 bun run index.ts
 ```
 
-This project was created using Bun. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+#
+
+This project was created using Bun.
+
+[Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
