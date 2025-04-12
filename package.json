@@ -1,6 +1,6 @@
 {
   "name": "2webp",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "homepage": "https://github.com/coreydemarse/2webp",
   "license": "MIT",
   "author": {
@@ -20,7 +20,6 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "sharp": "^0.34.1",
-    "bun": "^1.2.9"
+    "sharp": "^0.34.1"
   }
 }
