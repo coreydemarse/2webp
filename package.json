@@ -1,0 +1,16 @@
+{
+  "name": "2webp",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "sharp": "^0.34.1"
+  }
+}
