@@ -1,5 +1,12 @@
 {
   "name": "2webp",
+  "version": "0.1.0",
+  "homepage": "https://github.com/coreydemarse/2webp",
+  "license": "MIT",
+  "author": {
+    "name": "coreydemarse",
+    "url": "https://coreydemarse.com"
+  },
   "module": "index.ts",
   "type": "module",
   "private": true,
