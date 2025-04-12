@@ -4,6 +4,16 @@ A simple image converter for web developers.
 
 Convert images asyncronously in bulk using Bun/Sharp.
 
+
+## Dependencies
+
+2webp relies on Sharp which uses libvips.
+
+Make sure you have it installed.
+```bash
+sudo apt-get install libvips-dev
+```
+
 ## Install (global)
 
 ```bash
