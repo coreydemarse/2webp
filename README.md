@@ -19,6 +19,9 @@ sudo apt-get install libvips-dev
 
 ## How to Use
 
+When converting images 2webp will automatically batch and convert images asyncrounously.
+You can convert large folders of images safely with 2webp.
+
 ### Syntax
 
 ```bash
