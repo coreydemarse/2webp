@@ -1,3 +1,5 @@
+#!/usr/bin/env bun
+
 import fs from "fs";
 import path from "path";
 import sharp from "sharp";
