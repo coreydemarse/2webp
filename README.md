@@ -2,7 +2,7 @@
 
 A simple image converter for web developers.
 
-Convert images in bulk using Bun/Sharp.
+Convert images asyncronously in bulk using Bun/Sharp.
 
 ## Install (global)
 
@@ -33,7 +33,7 @@ Specify output directory, convert all images in current dir
 2webp . --output=./output
 ```
 
-Convert to png for all images in current dir
+Convert all images in current dir to png
 ```bash
 2webp . --format=png
 ```
